@@ -5,45 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/style.css" rel="stylesheet">
-    <script src="./assets/script.js"></script>
+    <script src="./assets/script.js" defer></script>
     <title>Git Gud</title>
 </head>
+
 <!--
 Bei der Umsetzung der Aufgabe ist der Inhalt wichtiger als das Design.
-Kommunikation ist das A L O !!!
+Kommunikation ist das A & O !!!
 -->
 
 <body>
-    <nav>
-        <div>
-            <h1>Meine Git-Webseite</h1>
-            <ul>
-                <li><a href="./themen/gruppe1.html">Gruppe 1</a></li>
-                <li><a href="./themen/gruppe2.html">Gruppe 2</a></li>
-                <li><a href="./themen/gruppe3.html">Gruppe 3</a></li>
-                <li><a href="./themen/gruppe4.html">Gruppe 4</a></li>
-            </ul>
-        </div>
-    </nav>
-    <section>
-        <div>
-            <h2>Hilfestellungen</h2>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="https://t3n.de/news/git-einstieg-befehle-commands-1077761/" target="_blank">
-                        Git für Einsteiger
-                    </a>
-                </li>
-                <li>
-                    <a href="https://rogerdudler.github.io/git-guide/index.de.html" target="_blank">
-                        git - Der einfache Einstieg
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <header>
+        <nav>
+            <div>
+                <h1>Meine Git-Webseite</h1>
+                <ul class="nav_liste">
+                    <li class="nav_li_site_active"><a href="index.html">Haupseite</a></li>
+                    <li><a href="./themen/gruppe1.html">Gruppe 1</a></li>
+                    <li><a href="./themen/gruppe2.html">Gruppe 2</a></li>
+                    <li><a href="./themen/gruppe3.html">Gruppe 3</a></li>
+                    <li><a href="./themen/gruppe4.html">Gruppe 4</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Hilfestellungen</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://t3n.de/news/git-einstieg-befehle-commands-1077761/" target="_blank" rel="noopener noreferrer">
+                            Git für Einsteiger
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rogerdudler.github.io/git-guide/index.de.html" target="_blank" rel="noopener noreferrer">
+                            git - Der einfache Einstieg
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Hier könnte z.B. ein Copyright-Text oder andere Informationen hinzugefügt werden -->
+    </footer>
 </body>
 
 </html>

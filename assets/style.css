@@ -1,9 +1,10 @@
+/*
+Hier könnte ihr eurer CSS bestimmen
 
-
-
-
-
-
+###########################################################
+Achtung diese Datei ist Global für alle Seiten verfügbar!!!
+###########################################################
+ */
 
 
 header{
@@ -17,4 +18,23 @@ html , body {
 
 footer {
     border: 1px solid black;
+}
+
+li.nav_li_site_active{
+    background-color: red;
+
+}
+
+.nav_liste{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    gap: 5px;
+
+    background-color: rgba(230, 230, 230, 0.335);
+    border: 1px solid black;
+    padding: 5px;
+
+    list-style-type: none;
 }
