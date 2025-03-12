@@ -5,31 +5,32 @@ Hier könnte ihr eurer CSS bestimmen
 Achtung diese Datei ist Global für alle Seiten verfügbar!!!
 ###########################################################
  */
-
-
-header{
-    border: 1px solid black;
+html {
+    width: 100vw;
+    overflow: auto;
 }
 
-html , body {
-    width: 100vw;
-    min-height: 100vh;
+header{
+    /*border: 1px solid black;*/
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 20px;
 }
 
 footer {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    background-color: rgba(167, 167, 167, 0.6);
+    min-height: 20px;
 }
 
 li.nav_li_site_active{
     background-color: red;
-
 }
 
 .nav_liste{
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 5px;
 
     background-color: rgba(230, 230, 230, 0.335);
